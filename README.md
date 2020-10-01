@@ -29,7 +29,12 @@ Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}`.
 (01 to 12) and `yyyy` is any four digits.
     * `mm/dd/yyyy`, where `mm` is a valid month, `dd` is a valid day of the month
 and `yyyy` is any four digits.
-
+    
+    Each of these patterns have things in common (e.g. valid days of the month) -- 
+    make separate variables for the parts of the patterns so you don't 
+    repeat yourself. Surrounding each sub-pattern in grouping brackets
+    will ensure that they still work when you combine them. 
+    
     If the input string is a date in the form `dd-Mon-yyyy`, your program should print
 “Valid date”. 
 
