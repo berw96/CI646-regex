@@ -5,6 +5,8 @@ Firstly, familiarise yourself with the documentation for the Java regex package
 
 As you complete the problems below, you can test your regexes at http://regex101.com.
 
+This repository has a `solution` branch where you can compare your solution to mine. No cheating! ;)
+
 1. Modify the class `PhoneNumbers.java` so that it validates UK landline
 phone numbers. Valid numbers take one of the following forms:
 
